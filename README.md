@@ -28,8 +28,8 @@ You can pass in the same format as the file above, one URI per line, via standar
 
 `$ ./bcvax-decode.py - < MyShcUris.txt`
 
-## Options
-By default this will return formatted information that's stored on the card. You can increase the verbosity of the output with a few flags. These are useful if you want to see all of the raw detail.
+# Additional Options
+By default you'll just see user-friendly formatted card data. You can increase the verbosity of the output with a few flags. These are useful if you want to see all of the raw detail.
 ```
   --rawdata    Display the base64url data
   --header     Display the header
@@ -37,7 +37,7 @@ By default this will return formatted information that's stored on the card. You
   --signature  Display the signature
   --matchkey   Fetch the card's public key file and check that the key exists. This does not perform any key verification.
 ```
-## Output
+# Output
 By default, output will look something like this:
 ```
 Name: PATIENT, SAMPLE
